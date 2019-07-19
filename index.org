@@ -1,8 +1,12 @@
+#+OPTIONS: toc:nil num:nil \n:nil ::t -:t
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="stylesheets/resume.css" />
+
 * Hassan McGinnis
 
 ** Résumé
 
-[[https://hrmcginnis.github.io/resume/hrmresume.pdf][Hassan McGinnis Résumé]]
++ [[https://hrmcginnis.github.io/resume/hrmresume.html][Hassan McGinnis Résumé]] [html]
++ [[https://hrmcginnis.github.io/resume/hrmresume.pdf][Hassan McGinnis Résumé]] [pdf]
 
 ** Repositories
 
