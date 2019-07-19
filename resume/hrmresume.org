@@ -1,0 +1,138 @@
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/home/hrm/Dropbox/resume/html/resume.css">
+#+OPTIONS: toc:nil num:nil \n:nil ::t -:t ::t html-postamble:nil
+#+TITLE: Hassan McGinnis Résumé
+
+* Hassan McGinnis
+  :PROPERTIES: 
+  :VISIBILITY: children
+  :HTML_CONTAINER_CLASS: row title
+  :CUSTOM_ID: hassan-mcginnis
+  :END:      
+  
+  Controls Engineer | Software Developer
+
+  Natick, MA | *(502) 295-8499*
+
+  ~hassan.mcginnis@gmail.com~ | [[https://www.linkedin.com/in/hmcginnis/][LinkedIn]]
+  
+* 
+  :PROPERTIES:
+  :VISIBILITY: children
+  :END:
+  --------------
+
+** Summary
+   :PROPERTIES: 
+   :HTML_CONTAINER_CLASS: row
+   :CUSTOM_ID: summary
+   :END:      
+   
+   I'm an engineer with professional software development and test experience using MATLAB, Simulink, Python and C++. I also have research experience in robust control of aircraft control surfaces and signal processing for structural vibration analysis.
+   
+** Software Skills
+   :PROPERTIES: 
+   :HTML_CONTAINER_CLASS: row
+   :CUSTOM_ID: software-skills
+   :END:      
+   
+   *Tools*: MATLAB, Simulink, Stateflow, GNU/Linux, Emacs, Git, Bamboo
+   
+   *Languages*: MATLAB, Python, C++, Bash
+   
+** Projects
+   :PROPERTIES: 
+   :HTML_CONTAINER_CLASS: row notext
+   :CUSTOM_ID: projects
+   :END:      
+*** 
+   :PROPERTIES: 
+   :HTML_CONTAINER_CLASS: col notext
+   :END:      
+**** MedAcuity Software | Controls Software Verification for Robotic Assisted Surgery System
+    :PROPERTIES: 
+    :CUSTOM_ID: medacuity-software-verification
+    :END:      
+
+    /Aug 2017 - present/
+    
++ Created and implemented a strategy for verification and MC/DC test coverage of state machines and control algorithms for robotic arm motion implemented in Simulink.
++ Coordinated remote access for a team of engineers under my direction performing verification of functional and non-functional software requirements implemented in Simulink and C++.
++ Developed Python framework and Bamboo test plan for batch execution of C++ requirements tests and Simulink unit tests.
+
+**** MathWorks | Development of Python System Object for Simulink Raspberry Pi Support Package
+    :PROPERTIES: 
+    :CUSTOM_ID: mathworks-python-system-object
+    :END:      
+    
+    /May 2016/
+
++ Developed a Simulink block in MATLAB and C for the Raspberry Pi support package that interfaces with the Python/C API, allowing users to easily send simulation data to any Python module on the Raspberry Pi in soft real-time.
++ Created a demo using the Python System object block in Simulink to drive a servomotor with a Raspberry Pi using the RaspiRobot Python library.
+   
+**** Purdue University | Sensitivity analysis of wear prognosis in an $H_\infty$ controlled F-16 simulation
+    :PROPERTIES: 
+    :CUSTOM_ID: purdue-h-infinity-control
+    :END:      
+    
+    /Aug 2010 - Dec 2011/
+
++ Investigated the minimization of fault propagation in a hydraulic actuator through real-time adjustment in the commanded flight path.
++ Developed a robust altitude controller for an F-16 fighter aircraft model using $H_\infty$ synthesis.
++ Performed sensitivity analysis of the path adjustment algorithm under modeling error.
++ Demonstrated the improved control strategy using a hydraulic solenoid valve hardware-in-the-loop system prototyped in Simulink and driven by dSPACE software.
+  
+** Work Experience
+   :PROPERTIES: 
+   :HTML_CONTAINER_CLASS: row notext
+   :CUSTOM_ID: work-experience
+   :END:
+*** 
+     :PROPERTIES:
+     :HTML_CONTAINER_CLASS: col notext
+     :END:      
+**** MedAcuity Software | Software Specialist | Westford, MA
+    :PROPERTIES: 
+    :CUSTOM_ID: medacuity-software-software-specialist
+    :END:      
+    
+    /July 2017 - present/
+    
++ Software consultant for clients in the medical device industry.
++ Specialist in MATLAB, Simulink, and Python test and development.
+   
+**** MathWorks | Senior Application Engineer (Post-sales) | Natick, MA
+    :PROPERTIES: 
+    :CUSTOM_ID: mathworks-senior-application-engineer-post-sales
+    :END:      
+    
+    /Sept 2013 - July 2016/
+    
++ Specialist in Simulink code generation workflows, providing solutions for customers using Simulink Coder and Embedded Coder for production C/C++ code generation.
++ Developed/supported software improvements for MATLAB and Simulink motivated by direct customer needs, including the ability to generate MISRA compliant code, enhanced user customization of generated code, and improved support for third-party compilers.
+
+** Education
+   :PROPERTIES: 
+   :HTML_CONTAINER_CLASS: row notext
+   :CUSTOM_ID: education
+   :END:      
+   
+*** Purdue University
+    :PROPERTIES: 
+    :CUSTOM_ID: purdue-university
+    :END:      
+    
+    MS Mechanical Engineering | 3.81/4.00 | Dec 2011
+    
+*** University of Kentucky
+    :PROPERTIES: 
+    :CUSTOM_ID: university-of-kentucky
+    :END:      
+    
+    ​BS Mechanical Engineering | 3.46/4.00 | May 2009
+
+** Résumé
+   :PROPERTIES: 
+   :HTML_CONTAINER_CLASS: row
+   :CUSTOM_ID: resume-in-org-mode
+   :END:      
+   Generated with [[https://orgmode.org/][Emacs Org mode]] 
