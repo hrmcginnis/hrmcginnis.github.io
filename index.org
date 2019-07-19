@@ -1,0 +1,9 @@
+* Hassan McGinnis
+
+** Résumé
+
+[[https://hrmcginnis.github.io/resume/hrmresume.pdf][Hassan McGinnis Résumé]]
+
+** Repositories
+
+[[https://github.com/hrmcginnis/hrmutils/][hrmutils]] - (mostly) ~bash~ utilities for Ubuntu 16.04 LTS
