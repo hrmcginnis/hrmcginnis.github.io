@@ -5,7 +5,7 @@
 
 *** Résumé
 
- [[[https://hrmcginnis.github.io/resume/hrmresume.pdf][html]]] [[[https://hrmcginnis.github.io/resume/hrmresume.pdf][pdf]]]
+ [[[https://hrmcginnis.github.io/resume/hrmresume.html][html]]] [[[https://hrmcginnis.github.io/resume/hrmresume.pdf][pdf]]]
 
 *** Repositories
 
