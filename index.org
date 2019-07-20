@@ -1,13 +1,12 @@
 #+OPTIONS: toc:nil num:nil \n:nil ::t -:t
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="stylesheets/resume.css" />
 
-* Hassan McGinnis
+** Hassan McGinnis
 
-** Résumé
+*** Résumé
 
-+ [[https://hrmcginnis.github.io/resume/hrmresume.html][Hassan McGinnis Résumé]] [html]
-+ [[https://hrmcginnis.github.io/resume/hrmresume.pdf][Hassan McGinnis Résumé]] [pdf]
+ [[[https://hrmcginnis.github.io/resume/hrmresume.pdf][html]]] [[[https://hrmcginnis.github.io/resume/hrmresume.pdf][pdf]]]
 
-** Repositories
+*** Repositories
 
-[[https://github.com/hrmcginnis/hrmutils/][hrmutils]] - (mostly) ~bash~ utilities for Ubuntu 16.04 LTS
+ [[https://github.com/hrmcginnis/hrmutils/][hrmutils]] - (mostly) ~bash~ utilities for Ubuntu 16.04 LTS
