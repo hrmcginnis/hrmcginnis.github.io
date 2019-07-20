@@ -1,6 +1,6 @@
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="stylesheets/resume.css">
 #+OPTIONS: toc:nil num:nil \n:nil ::t -:t ::t html-postamble:nil
-#+TITLE: Hassan McGinnis Résumé
+#+TITLE: Hassan McGinnis | Résumé
 
 * Hassan McGinnis
   :PROPERTIES: 
@@ -13,7 +13,7 @@
 
   Natick, MA | *(502) 295-8499*
 
-  ~hassan.mcginnis@gmail.com~ | [[https://www.linkedin.com/in/hmcginnis/][LinkedIn]]
+  ~hassan.mcginnis@gmail.com~ | [[https://www.linkedin.com/in/hmcginnis/][LinkedIn]] | [[https://hrmcginnis.github.io][GitHub]]
   
 * 
   :PROPERTIES:
