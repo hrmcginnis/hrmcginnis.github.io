@@ -1,4 +1,4 @@
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="stylesheets/resume.css">
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/home/hrm/Dropbox/resume/html/resume.css">
 #+OPTIONS: toc:nil num:nil \n:nil ::t -:t ::t html-postamble:nil
 #+TITLE: Hassan McGinnis | Résumé
 
@@ -13,7 +13,7 @@
 
   Natick, MA | *(502) 295-8499*
 
-  ~hassan.mcginnis@gmail.com~ | [[https://www.linkedin.com/in/hmcginnis/][LinkedIn]] | [[https://hrmcginnis.github.io][GitHub]]
+  ~hassan.mcginnis@gmail.com~ | [[https://www.linkedin.com/in/hmcginnis/][LinkedIn]]
   
 * 
   :PROPERTIES:
@@ -55,9 +55,9 @@
 
     /Aug 2017 - present/
     
-+ Created and implemented a strategy for verification and MC/DC test coverage of state machines and control algorithms for robotic arm motion implemented in Simulink.
-+ Coordinated remote access for a team of engineers under my direction performing verification of functional and non-functional software requirements implemented in Simulink and C++.
-+ Developed Python framework and Bamboo test plan for batch execution of C++ requirements tests and Simulink unit tests.
++ Created, implemented, and documented a strategy for verification and MC/DC test coverage of state machines and control algorithms for robotic arm motion implemented in Simulink.
++ Led a team of remote test engineers through verification of functional and non-functional software requirements implemented in Simulink and C++.
++ Developed a Python framework and Bamboo test plan for batch execution of C++ requirements tests and Simulink unit tests.
 
 **** MathWorks | Development of Python System Object for Simulink Raspberry Pi Support Package
     :PROPERTIES: 
