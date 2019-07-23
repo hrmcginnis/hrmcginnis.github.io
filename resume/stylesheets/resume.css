@@ -1,26 +1,30 @@
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed|IBM+Plex+Sans:400|Roboto+Condensed:400');
+@import url('https://fonts.googleapis.com/css?family=Roboto|IBM+Plex+Sans|Roboto+Condensed:400');
 
 
 /* TEXT ****************************/
 
 :root { /* Define Variables Here */
-    --sans-display-font: 'IBM Plex Sans Condensed';
+
+	/* Fonts */
+    --sans-display-font: 'Roboto';
     --mono-display-font: 'Input';
     --sans-text-font:    'IBM Plex Sans';
+
+	/* Formatting */
     --left-column-width:  1.85in;
 }
 
 h1, h2 {
     font-family:     var(--sans-display-font), sans;
-    font-weight:     500;
-    font-size:       47px;
+    font-weight:     900;
+    font-size:       40px;
     line-height:     40px;
 }
 
 h3 {
     font-family:     var(--sans-display-font, sans);
-    font-weight:     500;
-    font-size:       22px;
+    font-weight:     700;
+    font-size:       20px;
 }
 
 h4, h5 {
@@ -32,7 +36,7 @@ h4, h5 {
 
 p, li {
     font-family:     var(--sans-text-font, sans);
-    font-weight:     400;
+    font-weight:     300;
     font-size:	     14px;
 }
 
@@ -79,7 +83,7 @@ hr {
 
 .row.title {
     align-items: center;
-    margin-bottom: -45px;
+    margin-bottom: -35px;
 }
 
 .row:not([class~="title"]) {
@@ -95,6 +99,15 @@ h1.title, .notext > div:first-of-type, .col > :first-child {
     display: none;
 }
 
+@media print {
+	@page {
+		size: auto;
+		margin: 0.5in 0.3in 0.3in 0.3in;
+	}
+	body {
+		margin: 0px;
+	}
+}
 
 @media all and (max-width: 6in) {
     .row {

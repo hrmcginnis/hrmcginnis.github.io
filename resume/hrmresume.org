@@ -8,13 +8,14 @@
   :HTML_CONTAINER_CLASS: row title
   :CUSTOM_ID: hassan-mcginnis
   :END:      
-  
-  Controls Engineer | Software Developer
 
-  Natick, MA | *(502) 295-8499*
+  @@html:<p style="font-size:14px;line-height:20px">@@
+  *Software Developer*  |  *Controls Engineer* \\
+  Natick, MA  |  (502) 295-8499 \\
+  ~hassan.mcginnis@gmail.com~ \\
+  LinkedIn: [[https://www.linkedin.com/in/hrmcginnis][linkedin.com/in/hrmcginnis]]  |  GitHub: [[https://hrmcginnis.github.io][hrmcginnis.github.io]] \\
+  @@html:</p>@@
 
-  ~hassan.mcginnis@gmail.com~ | [[https://www.linkedin.com/in/hmcginnis/][LinkedIn]]
-  
 * 
   :PROPERTIES:
   :VISIBILITY: children
@@ -57,7 +58,7 @@
     
 + Created, implemented, and documented a strategy for verification and MC/DC test coverage of state machines and control algorithms for robotic arm motion implemented in Simulink.
 + Led a team of remote test engineers through verification of functional and non-functional software requirements implemented in Simulink and C++.
-+ Developed a Python framework and Bamboo test plan for batch execution of C++ requirements tests and Simulink unit tests.
++ Developed and validated a Python framework and Bamboo test plan for batch execution of C++ requirements tests and Simulink unit tests.
 
 **** MathWorks | Development of Python System Object for Simulink Raspberry Pi Support Package
     :PROPERTIES: 
