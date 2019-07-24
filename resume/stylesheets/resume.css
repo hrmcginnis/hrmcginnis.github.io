@@ -8,17 +8,17 @@
 	/* Fonts */
     --sans-display-font: 'Roboto';
     --mono-display-font: 'Input';
-    --sans-text-font:    'IBM Plex Sans';
+    --sans-text-font:    'IBM Plex Sans Condensed';
 
 	/* Formatting */
-    --left-column-width:  1.85in;
+    --left-column-width:  1.8in;
 }
 
 h1, h2 {
     font-family:     var(--sans-display-font), sans;
     font-weight:     900;
     font-size:       40px;
-    /* line-height:     20px; */
+    line-height:     40px;
 }
 
 h3 {

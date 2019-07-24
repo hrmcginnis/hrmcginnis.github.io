@@ -3,14 +3,10 @@
 #+TITLE: Hassan McGinnis | GitHub Pages
 
 ** Hassan McGinnis
+Software Developer | Controls Engineer | Natick, MA
 
-Software Developer | Controls Engineer \\
-Natick, MA
+-----
 
-*** Résumé
-
- [[[https://hrmcginnis.github.io/resume/hrmresume.html][html]]][[[https://hrmcginnis.github.io/resume/hrmresume.pdf][pdf]]]
-
-*** Repositories
-
- [[https://github.com/hrmcginnis/hrmutils/][hrmutils]] - utilities for Ubuntu 16.04 LTS 
+[[https://hrmcginnis.github.io/resume/hrmresume.html][Résumé]] [[[https://hrmcginnis.github.io/resume/hrmresume.pdf][pdf]]] \\
+[[https://www.linkedin.com/in/hrmcginnis/][LinkedIn]] \\
+[[https://github.com/hrmcginnis/hrmutils/][~hrmutils~]] - utilities for Ubuntu 16.04 LTS \\
