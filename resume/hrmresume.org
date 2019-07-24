@@ -9,11 +9,10 @@
   :CUSTOM_ID: hassan-mcginnis
   :END:      
 
-  @@html:<p style="font-size:14px;line-height:20px">@@
+  @@html:<p style="font-size:14px;line-height:25px">@@
   *Software Developer*  |  *Controls Engineer* \\
   Natick, MA  |  (502) 295-8499 \\
-  ~hassan.mcginnis@gmail.com~ \\
-  LinkedIn: [[https://www.linkedin.com/in/hrmcginnis][linkedin.com/in/hrmcginnis]]  |  GitHub: [[https://hrmcginnis.github.io][hrmcginnis.github.io]] \\
+  ~hassan.mcginnis@gmail.com~ | [[https://www.linkedin.com/in/hrmcginnis][linkedin.com/in/hrmcginnis]] | [[https://hrmcginnis.github.io][hrmcginnis.github.io]] \\
   @@html:</p>@@
 
 * 

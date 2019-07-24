@@ -18,7 +18,7 @@ h1, h2 {
     font-family:     var(--sans-display-font), sans;
     font-weight:     900;
     font-size:       40px;
-    line-height:     40px;
+    /* line-height:     20px; */
 }
 
 h3 {
@@ -83,7 +83,7 @@ hr {
 
 .row.title {
     align-items: center;
-    margin-bottom: -35px;
+    margin-bottom: -40px;
 }
 
 .row:not([class~="title"]) {
