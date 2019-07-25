@@ -1,4 +1,4 @@
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="stylesheets/resume.css">
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="../css/site.css">
 #+OPTIONS: toc:nil num:nil \n:nil ::t -:t ::t html-postamble:nil
 #+TITLE: Hassan McGinnis | Résumé
 

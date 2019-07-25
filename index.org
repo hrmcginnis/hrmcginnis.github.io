@@ -1,5 +1,5 @@
 #+OPTIONS: toc:nil num:nil \n:nil ::t -:t title:nil html-postamble:nil
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="resume/stylesheets/resume.css" />
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/site.css" />
 #+TITLE: Hassan McGinnis | GitHub Pages
 
 ** Hassan McGinnis
