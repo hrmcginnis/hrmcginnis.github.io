@@ -6,7 +6,7 @@
   :PROPERTIES: 
   :VISIBILITY: children
   :HTML_CONTAINER_CLASS: row title
-  :CUSTOM_ID: hassan-mcginnis
+  :CUSTOM_ID: name
   :END:      
 
   @@html:<p style="font-size:14px;line-height:25px">@@
