@@ -21,7 +21,7 @@
   :VISIBILITY: children
   :END:
   --------------
-
+  
 ** Summary
    :PROPERTIES: 
    :HTML_CONTAINER_CLASS: row
@@ -54,7 +54,7 @@
     :CUSTOM_ID: medacuity-software-verification
     :END:      
 
-    /Aug 2017 - present/
+	/Aug 2017 - present/
     
 + Created, implemented, and documented a strategy for verification and MC/DC test coverage of state machines and control algorithms for robotic arm motion implemented in Simulink.
 + Led a team of remote test engineers through verification of functional and non-functional software requirements implemented in Simulink and C++.
@@ -65,7 +65,7 @@
     :CUSTOM_ID: mathworks-python-system-object
     :END:      
     
-    /May 2016/
+	/May 2016/
 
 + Developed a Simulink block in MATLAB and C for the Raspberry Pi support package that interfaces with the Python/C API, allowing users to easily send simulation data to any Python module on the Raspberry Pi in soft real-time.
 + Created a demo using the Python System object block in Simulink to drive a servomotor with a Raspberry Pi using the RaspiRobot Python library.
@@ -75,41 +75,55 @@
     :CUSTOM_ID: purdue-h-infinity-control
     :END:      
     
-    /Aug 2010 - Dec 2011/
+	/Aug 2010 - Dec 2011/
 
 + Investigated the minimization of fault propagation in a hydraulic actuator through real-time adjustment in the commanded flight path.
 + Developed a robust altitude controller for an F-16 fighter aircraft model using $H_\infty$ synthesis.
 + Performed sensitivity analysis of the path adjustment algorithm under modeling error.
 + Demonstrated the improved control strategy using a hydraulic solenoid valve hardware-in-the-loop system prototyped in Simulink and driven by dSPACE software.
   
+** Hobby Projects
+   :PROPERTIES: 
+   :HTML_CONTAINER_CLASS: row notext
+   :CUSTOM_ID: hobby-projects
+   :END:      
+*** 
+	:PROPERTIES:
+	:HTML_CONTAINER_CLASS: col notext
+	:END:
+**** Music Production
+    :PROPERTIES: 
+    :CUSTOM_ID: hobby-mixing
+    :END:      
+    
+    /July 2016 - present/
+    
++ Using Reaper DAW with several free VST plugins to record and mix tracks
++ Recording guitar and bass through an audio interface, and recording drums via MIDI
+   
 ** Work Experience
    :PROPERTIES: 
    :HTML_CONTAINER_CLASS: row notext
    :CUSTOM_ID: work-experience
    :END:
 *** 
-     :PROPERTIES:
-     :HTML_CONTAINER_CLASS: col notext
+	:PROPERTIES:
+	:HTML_CONTAINER_CLASS: col notext
+	:END:
+**** MedAcuity Software | Westford, MA
+     :PROPERTIES: 
+	 :HTML_CONTAINER_CLASS:
+     :CUSTOM_ID: medacuity-software-software-specialist
      :END:      
-**** MedAcuity Software | Software Specialist | Westford, MA
-    :PROPERTIES: 
-    :CUSTOM_ID: medacuity-software-software-specialist
-    :END:      
+***** *Software Specialist* | /July 2017 - present/
     
-    /July 2017 - present/
-    
-+ Software consultant for clients in the medical device industry.
-+ Specialist in MATLAB, Simulink, and Python test and development.
-   
-**** MathWorks | Senior Application Engineer (Post-sales) | Natick, MA
-    :PROPERTIES: 
-    :CUSTOM_ID: mathworks-senior-application-engineer-post-sales
-    :END:      
-    
-    /Sept 2013 - July 2016/
-    
-+ Specialist in Simulink code generation workflows, providing solutions for customers using Simulink Coder and Embedded Coder for production C/C++ code generation.
-+ Developed/supported software improvements for MATLAB and Simulink motivated by direct customer needs, including the ability to generate MISRA compliant code, enhanced user customization of generated code, and improved support for third-party compilers.
+**** MathWorks | Natick, MA
+     :PROPERTIES: 
+	 :HTML_CONTAINER_CLASS:
+     :CUSTOM_ID: mathworks-senior-application-engineer-post-sales
+     :END:      
+***** *Senior Application Engineer - Post Sales* | /Sept 2013 - July 2016/
+***** *Application Support Engineer* | /Sept 2011 - Sept 2013/
 
 ** Education
    :PROPERTIES: 
@@ -119,17 +133,20 @@
    
 *** Purdue University
     :PROPERTIES: 
+	:HTML_CONTAINER_CLASS: horiz
     :CUSTOM_ID: purdue-university
     :END:      
     
-    MS Mechanical Engineering | 3.81/4.00 | Dec 2011
+    MS Mechanical Engineering | Dec 2011 \\
+	GPA: /3.81/4.00/
     
 *** University of Kentucky
     :PROPERTIES: 
     :CUSTOM_ID: university-of-kentucky
     :END:      
     
-    ​BS Mechanical Engineering | 3.46/4.00 | May 2009
+    ​BS Mechanical Engineering | May 2009 \\
+	GPA: /3.46/4.00/ 
 
 ** Résumé
    :PROPERTIES: 
