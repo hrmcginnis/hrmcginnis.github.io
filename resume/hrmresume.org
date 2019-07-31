@@ -82,25 +82,6 @@
 + Performed sensitivity analysis of the path adjustment algorithm under modeling error.
 + Demonstrated the improved control strategy using a hydraulic solenoid valve hardware-in-the-loop system prototyped in Simulink and driven by dSPACE software.
   
-** Hobby Projects
-   :PROPERTIES: 
-   :HTML_CONTAINER_CLASS: row notext
-   :CUSTOM_ID: hobby-projects
-   :END:      
-*** 
-	:PROPERTIES:
-	:HTML_CONTAINER_CLASS: col notext
-	:END:
-**** Music Production
-    :PROPERTIES: 
-    :CUSTOM_ID: hobby-mixing
-    :END:      
-    
-    /July 2016 - present/
-    
-+ Using Reaper DAW with several free VST plugins to record and mix tracks
-+ Recording guitar and bass through an audio interface, and recording drums via MIDI
-   
 ** Work Experience
    :PROPERTIES: 
    :HTML_CONTAINER_CLASS: row notext
@@ -130,24 +111,60 @@
    :HTML_CONTAINER_CLASS: row notext
    :CUSTOM_ID: education
    :END:      
-   
-*** Purdue University
-    :PROPERTIES: 
-	:HTML_CONTAINER_CLASS: horiz
-    :CUSTOM_ID: purdue-university
-    :END:      
+*** 
+	:PROPERTIES:
+	:HTML_CONTAINER_CLASS: col notext
+	:END:
+# **** MedAcuity Software | Westford, MA
+#      :PROPERTIES: 
+# 	 :HTML_CONTAINER_CLASS:
+#      :CUSTOM_ID: medacuity-software-software-specialist
+#      :END:      
+# ***** *Software Specialist* | /July 2017 - present/
     
-    MS Mechanical Engineering | Dec 2011 \\
-	GPA: /3.81/4.00/
-    
-*** University of Kentucky
-    :PROPERTIES: 
-    :CUSTOM_ID: university-of-kentucky
-    :END:      
-    
-    ​BS Mechanical Engineering | May 2009 \\
-	GPA: /3.46/4.00/ 
+# **** MathWorks | Natick, MA
+#      :PROPERTIES: 
+# 	 :HTML_CONTAINER_CLASS:
+#      :CUSTOM_ID: mathworks-senior-application-engineer-post-sales
+#      :END:      
+# ***** *Senior Application Engineer - Post Sales* | /Sept 2013 - July 2016/
+# ***** *Application Support Engineer* | /Sept 2011 - Sept 2013/
 
+   
+**** Purdue University
+     :PROPERTIES: 
+	 :HTML_CONTAINER_CLASS: horiz
+     :CUSTOM_ID: purdue-university
+     :END:      
+    
+     MS Mechanical Engineering | Dec 2011 | GPA: /3.81/4.00/
+    
+**** University of Kentucky
+     :PROPERTIES: 
+     :CUSTOM_ID: university-of-kentucky
+     :END:      
+    
+     ​BS Mechanical Engineering | May 2009 | GPA: /3.46/4.00/ 
+
+** Hobby Projects
+   :PROPERTIES: 
+   :HTML_CONTAINER_CLASS: row notext
+   :CUSTOM_ID: hobby-projects
+   :END:      
+*** 
+	:PROPERTIES:
+	:HTML_CONTAINER_CLASS: col notext
+	:END:
+**** Music Production
+    :PROPERTIES: 
+    :CUSTOM_ID: hobby-mixing
+    :END:      
+    
+    /July 2016 - present/
+    
++ Using Reaper Digital Audio Workstation with several free VST plugins to record and mix audio tracks
++ Recording guitar and bass through an audio interface, and recording drums via MIDI
+   
 ** Résumé
    :PROPERTIES: 
    :HTML_CONTAINER_CLASS: row
