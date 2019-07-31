@@ -9,8 +9,9 @@
   :CUSTOM_ID: name
   :END:      
 
-  @@html:<p style="font-size:14px;line-height:25px">@@
+  @@html:<p style="font-size:16px;margin-bottom:-10px">@@
   *Software Developer*  |  *Controls Engineer* \\
+  @@html:</p><p style="font-size:13px;line-height:22px">@@
   Natick, MA  |  (502) 295-8499 \\
   ~hassan.mcginnis@gmail.com~ | [[https://www.linkedin.com/in/hrmcginnis][linkedin.com/in/hrmcginnis]] | [[https://hrmcginnis.github.io][hrmcginnis.github.io]] \\
   @@html:</p>@@
