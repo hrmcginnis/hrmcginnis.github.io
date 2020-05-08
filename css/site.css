@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto|IBM+Plex+Sans+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono|IBM+Plex+Sans+Condensed');
 
 
 /*
@@ -8,17 +8,18 @@
 /* File Variables */
 :root { 
 	/* Fonts */
-    --sans-display-font: 'Roboto';
+    --sans-display-font: 'IBM Plex Sans Condensed';
     --sans-text-font:    'IBM Plex Sans Condensed';
+	--mono-font:         'Roboto Mono';
 
 	/* Formatting */
-    --left-column-width:  1.8in;
+    --left-column-width:  1.85in;
 	--line-padding:       0.15in;
 }
 
 h1, h2 {
     font-family:     var(--sans-display-font), sans;
-    font-weight:     900;
+    font-weight:     700;
     font-size:       40px;
     line-height:     40px;
 }
@@ -26,13 +27,13 @@ h1, h2 {
 h3 {
     font-family:     var(--sans-display-font, sans);
     font-weight:     700;
-    font-size:       20px;
+    font-size:       18px;
 }
 
 h4, h5 {
     font-family:     var(--sans-display-font, sans);
     font-weight:     500;
-    font-size:       16px;
+    font-size:       18px;
 	margin-bottom:   5px;
 }
 
@@ -43,8 +44,8 @@ p, li {
 }
 
 code {
-    font-family:     Inconsolata, Menlo, Consolas, monospace;
-    font-size:       14px;
+    font-family:     var(--mono-font), Inconsolata, Menlo, Consolas, monospace;
+    font-size:       12px;
 }
 
 li {
@@ -59,26 +60,47 @@ hr {
 }
 
 
-/*
- * Layout --------------------------------
- */
+/* ───────────────────────────────────────────────────────── */
+/* Layout */
 
+
+html {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+
+body {
+	flex: 0 1 auto;
+	align-self: auto;
+	max-width: 7.9in;
+	margin-top: 0.2in;
+	margin-bottom: 0.2in;
+}
+
+/* horizontal flexbox */
 .row {
     display: flex;
     align-items: baseline;
 }
 
+/* Any <div>s in a row should generally be left-aligned with a border */
 .row > div {
     text-align: left;
     border-left: 1px solid rgba(0, 0, 0, 0.2);
     padding-left: var(--line-padding);
     padding-right: var(--line-padding);
+	padding-bottom: -5px
 }
 
+/* Any "horiz" <div>s in a row should have a width of 2.7" */
 .row > div.horiz {
 	flex: 0 0 2.7in;
 }
 
+/* The first element of a row should be right-aligned */
 .row > :first-child {
     flex: none;
     width: var(--left-column-width);
@@ -88,20 +110,24 @@ hr {
     border: 0;
 }
 
+/* The title row should vertically center all elements */
 .row.title {
     align-items: center;
-    margin-bottom: -40px;
+    margin-bottom: -45px;
 }
 
+/* All non-title rows should have a fixed amount of bottom padding */
 .row:not([class~="title"]) {
-    padding-bottom: 10px;
+    padding-bottom: 6px;
 }
 
+/* vertical flexbox */
 .col {
     display: flex;
     flex-direction: column;
 }
 
+/* Hide the title and the first <div>/child of a ".notext" or ".col" */
 h1.title, .notext > div:first-of-type, .col > :first-child {
     display: none;
 }

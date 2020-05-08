@@ -115,21 +115,6 @@
 	:PROPERTIES:
 	:HTML_CONTAINER_CLASS: col notext
 	:END:
-# **** MedAcuity Software | Westford, MA
-#      :PROPERTIES: 
-# 	 :HTML_CONTAINER_CLASS:
-#      :CUSTOM_ID: medacuity-software-software-specialist
-#      :END:      
-# ***** *Software Specialist* | /July 2017 - present/
-    
-# **** MathWorks | Natick, MA
-#      :PROPERTIES: 
-# 	 :HTML_CONTAINER_CLASS:
-#      :CUSTOM_ID: mathworks-senior-application-engineer-post-sales
-#      :END:      
-# ***** *Senior Application Engineer - Post Sales* | /Sept 2013 - July 2016/
-# ***** *Application Support Engineer* | /Sept 2011 - Sept 2013/
-
    
 **** Purdue University
      :PROPERTIES: 
