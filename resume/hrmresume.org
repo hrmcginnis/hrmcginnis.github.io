@@ -9,7 +9,7 @@
   :CUSTOM_ID: name
   :END:      
 
-  @@html:<p style="font-size:16px;margin-bottom:-10px">@@
+  @@html:<p style="font-size:16px;font-weight:300;margin-bottom:-12px">@@
   *Software Developer*  |  *Controls Engineer* \\
   @@html:</p><p style="font-size:13px;line-height:22px">@@
   Natick, MA  |  (502) 295-8499 \\
@@ -36,9 +36,9 @@
    :CUSTOM_ID: software-skills
    :END:      
    
-   *Tools*: MATLAB, Simulink, Stateflow, GNU/Linux, Emacs, Git, Bamboo
+   *Tools*: MATLAB, Simulink, Stateflow, GNU/Linux, Emacs, Git
    
-   *Languages*: MATLAB, Python, C++, Bash
+   *Languages*: MATLAB, Python, Bash, C++
    
 ** Projects
    :PROPERTIES: 
@@ -118,7 +118,6 @@
    
 **** Purdue University
      :PROPERTIES: 
-	 :HTML_CONTAINER_CLASS: horiz
      :CUSTOM_ID: purdue-university
      :END:      
     
@@ -131,24 +130,24 @@
     
      ​BS Mechanical Engineering | May 2009 | GPA: /3.46/4.00/ 
 
-** Hobby Projects
-   :PROPERTIES: 
-   :HTML_CONTAINER_CLASS: row notext
-   :CUSTOM_ID: hobby-projects
-   :END:      
-*** 
-	:PROPERTIES:
-	:HTML_CONTAINER_CLASS: col notext
-	:END:
-**** Music Production
-    :PROPERTIES: 
-    :CUSTOM_ID: hobby-mixing
-    :END:      
+# ** Hobby Projects
+#    :PROPERTIES: 
+#    :HTML_CONTAINER_CLASS: row notext
+#    :CUSTOM_ID: hobby-projects
+#    :END:      
+# *** 
+# 	:PROPERTIES:
+# 	:HTML_CONTAINER_CLASS: col notext
+# 	:END:
+# **** Music Production
+#     :PROPERTIES: 
+#     :CUSTOM_ID: hobby-mixing
+#     :END:      
     
-    /July 2016 - present/
+#     /July 2016 - present/
     
-+ Using Reaper Digital Audio Workstation with several free VST plugins to record and mix audio tracks
-+ Recording guitar and bass through an audio interface, and recording drums via MIDI
+# + Using Reaper Digital Audio Workstation with several free VST plugins to record and mix audio tracks
+# + Recording guitar and bass through an audio interface, and recording drums via MIDI
    
 ** Résumé
    :PROPERTIES: 

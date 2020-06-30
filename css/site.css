@@ -1,50 +1,47 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono|IBM+Plex+Sans+Condensed');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400|IBM+Plex+Sans:wght@300..600');
 
 
-/*
- * Text properties --------------------------------
+/* ─────────────────────────────────────────────────────────
+ * Text Properties 
  */
 
-/* File Variables */
 :root { 
-	/* Fonts */
-    --sans-display-font: 'IBM Plex Sans Condensed';
-    --sans-text-font:    'IBM Plex Sans Condensed';
+    --sans-display-font: 'IBM Plex Sans';
+    --sans-text-font:    'IBM Plex Sans';
 	--mono-font:         'Roboto Mono';
-
-	/* Formatting */
     --left-column-width:  1.85in;
 	--line-padding:       0.15in;
 }
 
 h1, h2 {
-    font-family:     var(--sans-display-font), sans;
-    font-weight:     700;
+    font-family:     var(--sans-display-font), sans-serif;
+    font-weight:     600;
     font-size:       40px;
     line-height:     40px;
 }
 
 h3 {
-    font-family:     var(--sans-display-font, sans);
-    font-weight:     700;
+    font-family:     var(--sans-display-font, sans-serif);
+    font-weight:     500;
     font-size:       18px;
 }
 
 h4, h5 {
-    font-family:     var(--sans-display-font, sans);
+    font-family:     var(--sans-display-font, sans-serif);
     font-weight:     500;
     font-size:       18px;
 	margin-bottom:   5px;
 }
 
 p, li {
-    font-family:     var(--sans-text-font, sans);
+    font-family:     var(--sans-text-font, sans-serif);
     font-weight:     300;
     font-size:	     14px;
 }
 
 code {
-    font-family:     var(--mono-font), Inconsolata, Menlo, Consolas, monospace;
+    font-family:     var(--mono-font), monospace;
+	font-weight:     400;
     font-size:       12px;
 }
 
@@ -60,9 +57,9 @@ hr {
 }
 
 
-/* ───────────────────────────────────────────────────────── */
-/* Layout */
-
+/* ─────────────────────────────────────────────────────────
+ * Layout
+ */
 
 html {
 	display: flex;
@@ -133,8 +130,8 @@ h1.title, .notext > div:first-of-type, .col > :first-child {
 }
 
 
-/*
- * Different media ---------------------------------
+/* ───────────────────────────────────────────────────────── 
+ * Different Media
  */
 
 @media print {
