@@ -1,59 +1,64 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400|IBM+Plex+Sans:wght@300..600');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300..600&family=IBM+Plex+Mono:wght@300..600');
 
 
 /* ─────────────────────────────────────────────────────────
  * Text Properties 
  */
 
-:root { 
-    --sans-display-font: 'IBM Plex Sans';
-    --sans-text-font:    'IBM Plex Sans';
-	--mono-font:         'Roboto Mono';
-    --left-column-width:  1.85in;
-	--line-padding:       0.15in;
+html { 
+    /* Global variables */
+	--sans-display-font: 'IBM Plex Mono';
+    --sans-text-font: 'IBM Plex Mono';
+	--mono-font: 'IBM Plex Mono';
+    --left-column-width: 2.25in;
+	--line-padding: 0.15in;
+	--background: #fefcfc;
+	--foreground: #233;
+	
+	/* Styles */
+	background-color: var(--background);
+	color: var(--foreground);
 }
 
 h1, h2 {
-    font-family:     var(--sans-display-font), sans-serif;
-    font-weight:     600;
-    font-size:       40px;
-    line-height:     40px;
+    font-family: var(--sans-display-font), sans-serif;
+    font-weight: 600;
+    font-size: 2.7em;
+    line-height: 2.7em;
 }
 
 h3 {
-    font-family:     var(--sans-display-font, sans-serif);
-    font-weight:     500;
-    font-size:       18px;
+    font-family: var(--sans-display-font, sans-serif);
+    font-weight: 500;
+    font-size: 1.3em;
 }
 
 h4, h5 {
-    font-family:     var(--sans-display-font, sans-serif);
-    font-weight:     500;
-    font-size:       18px;
-	margin-bottom:   5px;
+    font-family: var(--sans-display-font, sans-serif);
+    font-weight: 500;
+    font-size: 18px;
+	margin-bottom: 5px;
 }
 
 p, li {
-    font-family:     var(--sans-text-font, sans-serif);
-    font-weight:     300;
-    font-size:	     14px;
+    font-family: var(--sans-text-font, sans-serif);
+    font-weight: 300;
+    font-size: 0.8em;
 }
 
 code {
-    font-family:     var(--mono-font), monospace;
-	font-weight:     400;
-    font-size:       12px;
+    font-family: var(--mono-font), monospace;
+	font-weight: 300;
+    font-size: 1em;
 }
 
 li {
-    margin-bottom:   6px;
+    margin-bottom: 0.5em;
 }
 
 hr {
-    border:          0;
-    height:          1;
-    border-top:      1px solid rgba(0, 0, 0, 0.2);
-    border-bottom:   1px solid rgba(255, 255, 255, 0.3);
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 
@@ -86,15 +91,15 @@ body {
 /* Any <div>s in a row should generally be left-aligned with a border */
 .row > div {
     text-align: left;
-    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    border-left: 1px solid rgba(0, 0, 0, 0.25);
     padding-left: var(--line-padding);
     padding-right: var(--line-padding);
-	padding-bottom: -5px
+	margin-bottom: 0.75em;
 }
 
 /* Any "horiz" <div>s in a row should have a width of 2.7" */
 .row > div.horiz {
-	flex: 0 0 2.7in;
+	flex: 0 0 var(--left-column-width);
 }
 
 /* The first element of a row should be right-aligned */
@@ -105,17 +110,20 @@ body {
     padding-right: var(--line-padding);
     padding-left: 0;
     border: 0;
+	letter-spacing: -0.25px;
+	line-height: inherit;
 }
 
 /* The title row should vertically center all elements */
 .row.title {
     align-items: center;
-    margin-bottom: -45px;
+    margin-bottom: -12px;
 }
 
 /* All non-title rows should have a fixed amount of bottom padding */
 .row:not([class~="title"]) {
-    padding-bottom: 6px;
+    padding-bottom: 0.25em;
+	line-height: inherit;
 }
 
 /* vertical flexbox */
@@ -124,8 +132,8 @@ body {
     flex-direction: column;
 }
 
-/* Hide the title and the first <div>/child of a ".notext" or ".col" */
-h1.title, .notext > div:first-of-type, .col > :first-child {
+/* Hide the title, TOC, and the first <div>/child of a ".notext" or ".col" */
+h1.title, .notext > div:first-of-type, .col > :first-child, #resume-body, #text-table-of-contents {
     display: none;
 }
 
@@ -140,13 +148,20 @@ h1.title, .notext > div:first-of-type, .col > :first-child {
 		margin: 0.5in 0.3in 0.5in 0.3in;
 	}
 	
+	html {
+		background-color: #fff;
+		color: #000;
+	}
+
 	body {
 		margin: 0px;
 	}
 }
 
 @media only screen and (max-width: 730px) {
+
 	body {
+		margin-top: 250px;
 		margin-left: 40px;
 		margin-right: 40px;
 	}
@@ -154,7 +169,19 @@ h1.title, .notext > div:first-of-type, .col > :first-child {
 	h1, h2, h3, h4, h5 {
 		margin-bottom: -5px;
 	}
-	
+
+	h3 {
+		font-size: 20px;
+	}
+
+	h5 {
+		font-size: 15px;
+	}
+
+	.row.notext {
+		border-bottom: 1px;
+	}
+
     .row {
     	display: flex;
     	flex-direction: column;
@@ -163,7 +190,7 @@ h1.title, .notext > div:first-of-type, .col > :first-child {
     
     .row > div, .col > div {
 		flex: 1 1 auto;
-    	width: 100%;
+    	width: 90%;
   		text-align: left;
 		border: 0;
     }
@@ -171,7 +198,7 @@ h1.title, .notext > div:first-of-type, .col > :first-child {
     .row.title > div {
     	text-align: center;
         margin: 0;
-    	padding: 0;
+    	padding-bottom: 20px;
         border: 0;
     }
     
@@ -180,4 +207,14 @@ h1.title, .notext > div:first-of-type, .col > :first-child {
 		text-align: center;
 		padding: 0;
     }
+
+	#text-table-of-contents {
+		background-color: var(--background);
+		display: block;
+		position: fixed;
+		width: 100%;
+		overflow: hidden;
+		top: 0;
+	}
+
 }

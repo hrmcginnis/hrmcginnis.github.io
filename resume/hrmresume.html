@@ -3,12 +3,12 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2020-06-30 Tue 13:35 -->
+<!-- 2021-06-11 Fri 16:03 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Hassan McGinnis | Résumé</title>
+<title>Hassan McGinnis's Résumé</title>
 <meta name="generator" content="Org mode" />
-<meta name="author" content="Hassan" />
+<meta name="author" content="Hassan McGinnis" />
 <style type="text/css">
  <!--/*--><![CDATA[/*><!--*/
   .title  { text-align: center;
@@ -40,7 +40,7 @@
   }
   pre.src {
     position: relative;
-    overflow: visible;
+    overflow: auto;
     padding-top: 1.2em;
   }
   pre.src:before {
@@ -52,7 +52,7 @@
     padding: 3px;
     border: 1px solid black;
   }
-  pre.src:hover:before { display: inline;}
+  pre.src:hover:before { display: inline; margin-top: 14px;}
   /* Languages per Org manual */
   pre.src-asymptote:before { content: 'Asymptote'; }
   pre.src-awk:before { content: 'Awk'; }
@@ -161,6 +161,19 @@
   .footdef  { margin-bottom: 1em; }
   .figure { padding: 1em; }
   .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
   .inlinetask {
     padding: 10px;
     border: 2px solid gray;
@@ -182,50 +195,26 @@
 </style>
 <link rel="stylesheet" type="text/css" href="../css/site.css">
 <script type="text/javascript">
-/*
-@licstart  The following is the entire license notice for the
-JavaScript code in this tag.
-
-Copyright (C) 2012-2019 Free Software Foundation, Inc.
-
-The JavaScript code in this tag is free software: you can
-redistribute it and/or modify it under the terms of the GNU
-General Public License (GNU GPL) as published by the Free Software
-Foundation, either version 3 of the License, or (at your option)
-any later version.  The code is distributed WITHOUT ANY WARRANTY;
-without even the implied warranty of MERCHANTABILITY or FITNESS
-FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
-
-As additional permission under GNU GPL version 3 section 7, you
-may distribute non-source (e.g., minimized or compacted) forms of
-that code without the copy of the GNU GPL normally required by
-section 4, provided you include this license notice and a URL
-through which recipients can access the Corresponding Source.
-
-
-@licend  The above is the entire license notice
-for the JavaScript code in this tag.
-*/
+// @license magnet:?xt=urn:btih:1f739d935676111cfff4b4693e3816e664797050&amp;dn=gpl-3.0.txt GPL-v3-or-Later
 <!--/*--><![CDATA[/*><!--*/
- function CodeHighlightOn(elem, id)
- {
-   var target = document.getElementById(id);
-   if(null != target) {
-     elem.cacheClassElem = elem.className;
-     elem.cacheClassTarget = target.className;
-     target.className = "code-highlighted";
-     elem.className   = "code-highlighted";
-   }
- }
- function CodeHighlightOff(elem, id)
- {
-   var target = document.getElementById(id);
-   if(elem.cacheClassElem)
-     elem.className = elem.cacheClassElem;
-   if(elem.cacheClassTarget)
-     target.className = elem.cacheClassTarget;
- }
-/*]]>*///-->
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.add("code-highlighted");
+         target.classList.add("code-highlighted");
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.remove("code-highlighted");
+         target.classList.remove("code-highlighted");
+       }
+     }
+    /*]]>*///-->
+// @license-end
 </script>
 <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
@@ -252,15 +241,25 @@ for the JavaScript code in this tag.
 </head>
 <body>
 <div id="content">
-<h1 class="title">Hassan McGinnis | Résumé</h1>
+<h1 class="title">Hassan McGinnis's Résumé</h1>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#software-skills">Software Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#work-experience">Work Experience</a></li>
+<li><a href="#education">Education</a></li>
+<li><a href="#resume-in-org-mode">Info</a></li>
+</ul>
+</div>
 
-<div id="outline-container-org8f8c933" class="outline-2 row title">
-<h2 id="name"><a id="org8f8c933"></a>Hassan McGinnis</h2>
+<div id="outline-container-name" class="outline-2 row title">
+<h2 id="name">Hassan McGinnis</h2>
 <div class="outline-text-2" id="text-name">
 <p>
-<p style="font-size:16px;font-weight:300;margin-bottom:-12px">
+<p style="font-weight:400;margin-bottom:-12px">
 <b>Software Developer</b>  |  <b>Controls Engineer</b> <br />
-</p><p style="font-size:13px;line-height:22px">
+</p><p style="line-height:22px">
 Natick, MA  |  (502) 295-8499 <br />
 <code>hassan.mcginnis@gmail.com</code> | <a href="https://www.linkedin.com/in/hrmcginnis">linkedin.com/in/hrmcginnis</a> | <a href="https://hrmcginnis.github.io">hrmcginnis.github.io</a> <br />
 </p>
@@ -268,14 +267,14 @@ Natick, MA  |  (502) 295-8499 <br />
 </div>
 </div>
 
-<div id="outline-container-org9b21732" class="outline-2">
-<h2 id="org9b21732"></h2>
-<div class="outline-text-2" id="text-org9b21732">
+<div id="outline-container-resume-body" class="outline-2">
+<h2 id="resume-body">Experience</h2>
+<div class="outline-text-2" id="text-resume-body">
 <hr />
 </div>
 
-<div id="outline-container-org03a62c4" class="outline-3 row">
-<h3 id="summary"><a id="org03a62c4"></a>Summary</h3>
+<div id="outline-container-summary" class="outline-3 row">
+<h3 id="summary">Summary</h3>
 <div class="outline-text-3" id="text-summary">
 <p>
 I'm an engineer with professional software development and test experience using MATLAB, Simulink, Python and C++. I also have research experience in robust control of aircraft control surfaces and signal processing for structural vibration analysis.
@@ -283,46 +282,45 @@ I'm an engineer with professional software development and test experience using
 </div>
 </div>
 
-<div id="outline-container-org18b49ff" class="outline-3 row">
-<h3 id="software-skills"><a id="org18b49ff"></a>Software Skills</h3>
+<div id="outline-container-software-skills" class="outline-3 row">
+<h3 id="software-skills">Software Skills</h3>
 <div class="outline-text-3" id="text-software-skills">
 <p>
-<b>Tools</b>: MATLAB, Simulink, Stateflow, GNU/Linux, Emacs, Git
-</p>
-
-<p>
+<b>Tools</b>: MATLAB, Simulink, Stateflow, GNU/Linux, Emacs, Git <br />
 <b>Languages</b>: MATLAB, Python, Bash, C++
 </p>
 </div>
 </div>
 
-<div id="outline-container-orgfae5145" class="outline-3 row notext">
-<h3 id="projects"><a id="orgfae5145"></a>Projects</h3>
+<div id="outline-container-projects" class="outline-3 row notext">
+<h3 id="projects">Projects</h3>
 <div class="outline-text-3" id="text-projects">
 </div>
-<div id="outline-container-orgda09c54" class="outline-4 col notext">
-<h4 id="orgda09c54"></h4>
-<div class="outline-text-4" id="text-orgda09c54">
+<div id="outline-container-org6dfa319" class="outline-4 col notext">
+<h4 id="org6dfa319"></h4>
+<div class="outline-text-4" id="text-org6dfa319">
 </div>
-<div id="outline-container-org18b64b2" class="outline-5">
-<h5 id="medacuity-software-verification"><a id="org18b64b2"></a>MedAcuity Software | Controls Software Verification for Robotic Assisted Surgery System</h5>
+<div id="outline-container-medacuity-software-verification" class="outline-5">
+<h5 id="medacuity-software-verification">Controls Software Verification for Robotic Assisted Surgery System</h5>
 <div class="outline-text-5" id="text-medacuity-software-verification">
 <p>
+<i>MedAcuity Software (Westford, MA)</i> <br />
 <i>Aug 2017 - present</i>
 </p>
 
 <ul class="org-ul">
-<li>Created, implemented, and documented a strategy for verification and MC/DC test coverage of state machines and control algorithms for robotic arm motion implemented in Simulink.</li>
+<li>Developed a process for verification and MC/DC test coverage of state machines and control algorithms for robotic arm motion implemented in Simulink.</li>
 <li>Led a team of remote test engineers through verification of functional and non-functional software requirements implemented in Simulink and C++.</li>
 <li>Developed and validated a Python framework and Bamboo test plan for batch execution of C++ requirements tests and Simulink unit tests.</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgaa27ce1" class="outline-5">
-<h5 id="mathworks-python-system-object"><a id="orgaa27ce1"></a>MathWorks | Development of Python System Object for Simulink Raspberry Pi Support Package</h5>
+<div id="outline-container-mathworks-python-system-object" class="outline-5">
+<h5 id="mathworks-python-system-object">Python System Object for Simulink Raspberry Pi Support Package</h5>
 <div class="outline-text-5" id="text-mathworks-python-system-object">
 <p>
+<i>MathWorks (Natick, MA)</i> <br />
 <i>May 2016</i>
 </p>
 
@@ -333,10 +331,11 @@ I'm an engineer with professional software development and test experience using
 </div>
 </div>
 
-<div id="outline-container-org4ac339d" class="outline-5">
-<h5 id="purdue-h-infinity-control"><a id="org4ac339d"></a>Purdue University | Sensitivity analysis of wear prognosis in an \(H_\infty\) controlled F-16 simulation</h5>
+<div id="outline-container-purdue-h-infinity-control" class="outline-5">
+<h5 id="purdue-h-infinity-control">Sensitivity analysis of wear prognosis in an \(H_\infty\) controlled F-16 simulation</h5>
 <div class="outline-text-5" id="text-purdue-h-infinity-control">
 <p>
+<i>Purdue University (West Lafayette, IN)</i> <br />
 <i>Aug 2010 - Dec 2011</i>
 </p>
 
@@ -351,46 +350,51 @@ I'm an engineer with professional software development and test experience using
 </div>
 </div>
 
-<div id="outline-container-org4d4ecab" class="outline-3 row notext">
-<h3 id="work-experience"><a id="org4d4ecab"></a>Work Experience</h3>
+<div id="outline-container-work-experience" class="outline-3 row notext">
+<h3 id="work-experience">Work Experience</h3>
 <div class="outline-text-3" id="text-work-experience">
 </div>
-<div id="outline-container-org3316f1a" class="outline-4 col notext">
-<h4 id="org3316f1a"></h4>
-<div class="outline-text-4" id="text-org3316f1a">
+
+<div id="outline-container-org300e235" class="outline-4 col notext">
+<h4 id="org300e235"></h4>
+<div class="outline-text-4" id="text-org300e235">
 </div>
-<div id="outline-container-orgca42e7a" class="outline-5 ">
-<h5 id="medacuity-software-software-specialist"><a id="orgca42e7a"></a>MedAcuity Software | Westford, MA</h5>
+
+<div id="outline-container-medacuity-software-software-specialist" class="outline-5 ">
+<h5 id="medacuity-software-software-specialist">MedAcuity Software</h5>
 <div class="outline-text-5" id="text-medacuity-software-software-specialist">
 </div>
+
 <ul class="org-ul">
-<li><a id="orgf16082c"></a><b>Software Specialist</b> | <i>July 2017 - present</i><br /></li>
+<li><a id="org785c2d5"></a><b>Software Specialist</b> | <i>July 2017 - present</i><br /></li>
 </ul>
 </div>
 
-<div id="outline-container-org60fe5c7" class="outline-5 ">
-<h5 id="mathworks-senior-application-engineer-post-sales"><a id="org60fe5c7"></a>MathWorks | Natick, MA</h5>
+<div id="outline-container-mathworks-senior-application-engineer-post-sales" class="outline-5 ">
+<h5 id="mathworks-senior-application-engineer-post-sales">MathWorks</h5>
 <div class="outline-text-5" id="text-mathworks-senior-application-engineer-post-sales">
 </div>
+
 <ul class="org-ul">
-<li><a id="org04d8bf8"></a><b>Senior Application Engineer - Post Sales</b> | <i>Sept 2013 - July 2016</i><br /></li>
-<li><a id="org75d30fa"></a><b>Application Support Engineer</b> | <i>Sept 2011 - Sept 2013</i><br /></li>
+<li><a id="org6573bf2"></a><b>Senior Application Engineer - Post Sales</b> | <i>Sept 2013 - July 2016</i><br /></li>
+<li><a id="org6064a45"></a><b>Application Support Engineer</b> | <i>Sept 2011 - Sept 2013</i><br /></li>
 </ul>
 </div>
 </div>
 </div>
 
-<div id="outline-container-org8d6c97d" class="outline-3 row notext">
-<h3 id="education"><a id="org8d6c97d"></a>Education</h3>
+<div id="outline-container-education" class="outline-3 row notext">
+<h3 id="education">Education</h3>
 <div class="outline-text-3" id="text-education">
 </div>
-<div id="outline-container-org2552c54" class="outline-4 col notext">
-<h4 id="org2552c54"></h4>
-<div class="outline-text-4" id="text-org2552c54">
+
+<div id="outline-container-org004d55c" class="outline-4 col notext">
+<h4 id="org004d55c"></h4>
+<div class="outline-text-4" id="text-org004d55c">
 </div>
 
-<div id="outline-container-org755d225" class="outline-5">
-<h5 id="purdue-university"><a id="org755d225"></a>Purdue University</h5>
+<div id="outline-container-purdue-university" class="outline-5">
+<h5 id="purdue-university">Purdue University</h5>
 <div class="outline-text-5" id="text-purdue-university">
 <p>
 MS Mechanical Engineering | Dec 2011 | GPA: <i>3.81/4.00</i>
@@ -398,8 +402,8 @@ MS Mechanical Engineering | Dec 2011 | GPA: <i>3.81/4.00</i>
 </div>
 </div>
 
-<div id="outline-container-org8bdafe6" class="outline-5">
-<h5 id="university-of-kentucky"><a id="org8bdafe6"></a>University of Kentucky</h5>
+<div id="outline-container-university-of-kentucky" class="outline-5">
+<h5 id="university-of-kentucky">University of Kentucky</h5>
 <div class="outline-text-5" id="text-university-of-kentucky">
 <p>
 ​BS Mechanical Engineering | May 2009 | GPA: <i>3.46/4.00</i> 
@@ -409,11 +413,11 @@ MS Mechanical Engineering | Dec 2011 | GPA: <i>3.81/4.00</i>
 </div>
 </div>
 
-<div id="outline-container-orgb4df83d" class="outline-3 row">
-<h3 id="resume-in-org-mode"><a id="orgb4df83d"></a>Résumé</h3>
+<div id="outline-container-resume-in-org-mode" class="outline-3 row">
+<h3 id="resume-in-org-mode">Info</h3>
 <div class="outline-text-3" id="text-resume-in-org-mode">
 <p>
-Generated with <a href="https://orgmode.org/">Emacs Org mode</a> 
+Generated with <a href="https://orgmode.org/">Emacs Org mode</a>.
 </p>
 </div>
 </div>
