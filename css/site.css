@@ -1,59 +1,64 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400|IBM+Plex+Sans:wght@300..600');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans|Roboto+Slab|Roboto+Mono');
 
 
 /* ─────────────────────────────────────────────────────────
- * Text Properties 
+ * Text Properties
  */
 
 :root { 
-    --sans-display-font: 'IBM Plex Sans';
-    --sans-text-font:    'IBM Plex Sans';
-	--mono-font:         'Roboto Mono';
-    --left-column-width:  1.85in;
-	--line-padding:       0.15in;
+    --default-font: 'IBM Plex Sans';
+    --display-font: 'Roboto Slab';
+	--mono-font: 'Roboto Mono';
+    --left-column-width: 2in;
+	--line-padding: 0.15in;
 }
 
-h1, h2 {
-    font-family:     var(--sans-display-font), sans-serif;
-    font-weight:     600;
-    font-size:       40px;
-    line-height:     40px;
+h2, h3, h4, h5 {
+    font-family: var(--display-font), sans-serif;
+    font-weight: 400;
+}
+
+h2 {
+    line-height: 1.05em;
+    font-size: 2.375em;
 }
 
 h3 {
-    font-family:     var(--sans-display-font, sans-serif);
-    font-weight:     500;
-    font-size:       18px;
+    font-size: 18px;
 }
 
 h4, h5 {
-    font-family:     var(--sans-display-font, sans-serif);
-    font-weight:     500;
-    font-size:       18px;
-	margin-bottom:   5px;
+	font-size: 16px;
+	margin-bottom: 5px;
 }
 
 p, li {
-    font-family:     var(--sans-text-font, sans-serif);
-    font-weight:     300;
-    font-size:	     14px;
+    font-family: var(--default-font), sans-serif;
+    font-size: 0.875em;
+	color: #333333;
+}
+
+b {
+	font-family: var(--display-font), sans-serif;
+	font-weight: unset;
 }
 
 code {
-    font-family:     var(--mono-font), monospace;
-	font-weight:     400;
-    font-size:       12px;
+    font-family: var(--mono-font);
+    font-size: 0.875em;
+	letter-spacing: -0.05em;
+	color: #333333;
 }
 
 li {
-    margin-bottom:   6px;
+    margin-bottom: 6px;
 }
 
 hr {
-    border:          0;
-    height:          1;
-    border-top:      1px solid rgba(0, 0, 0, 0.2);
-    border-bottom:   1px solid rgba(255, 255, 255, 0.3);
+    border: 0;
+    height: 1;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 
@@ -77,14 +82,18 @@ body {
 	margin-bottom: 0.2in;
 }
 
+ul {
+	padding-left: 0.3in;
+}
+
 /* horizontal flexbox */
-.row {
+.section {
     display: flex;
     align-items: baseline;
 }
 
-/* Any <div>s in a row should generally be left-aligned with a border */
-.row > div {
+/* Any <div>s in a section should generally be left-aligned with a border */
+.section > div {
     text-align: left;
     border-left: 1px solid rgba(0, 0, 0, 0.2);
     padding-left: var(--line-padding);
@@ -92,13 +101,13 @@ body {
 	padding-bottom: -5px
 }
 
-/* Any "horiz" <div>s in a row should have a width of 2.7" */
-.row > div.horiz {
+/* Any "horiz" <div>s in a section should have a width of 2.7" */
+.section > div.horiz {
 	flex: 0 0 2.7in;
 }
 
-/* The first element of a row should be right-aligned */
-.row > :first-child {
+/* The first element of a section should be right-aligned */
+.section > :first-child {
     flex: none;
     width: var(--left-column-width);
     text-align: right;
@@ -107,14 +116,14 @@ body {
     border: 0;
 }
 
-/* The title row should vertically center all elements */
-.row.title {
+/* The title section should vertically center all elements */
+.section.title {
     align-items: center;
-    margin-bottom: -45px;
+    margin-bottom: -50px;
 }
 
-/* All non-title rows should have a fixed amount of bottom padding */
-.row:not([class~="title"]) {
+/* All non-title sections should have a fixed amount of bottom padding */
+.section:not([class~="title"]) {
     padding-bottom: 6px;
 }
 
@@ -145,37 +154,45 @@ h1.title, .notext > div:first-of-type, .col > :first-child {
 	}
 }
 
-@media only screen and (max-width: 730px) {
+@media only screen and (max-width: 760px) {
 	body {
 		margin-left: 40px;
 		margin-right: 40px;
 	}
 
 	h1, h2, h3, h4, h5 {
-		margin-bottom: -5px;
+		margin-bottom: -0.25em;
+	}
+
+	div#text-contact {
+		text-align: center;
+	}
+
+	hr {
+		margin-top: 4em;
 	}
 	
-    .row {
+    .section {
     	display: flex;
     	flex-direction: column;
         align-items: center;
     }
     
-    .row > div, .col > div {
+    .section > div, .col > div {
 		flex: 1 1 auto;
     	width: 100%;
   		text-align: left;
 		border: 0;
     }
     
-    .row.title > div {
+    .section.title > div {
     	text-align: center;
         margin: 0;
     	padding: 0;
         border: 0;
     }
     
-    .row > :first-child, .row.title > :first-child, .col > :first-child {
+    .section > :first-child, .section.title > :first-child, .col > :first-child {
     	width: auto;
 		text-align: center;
 		padding: 0;

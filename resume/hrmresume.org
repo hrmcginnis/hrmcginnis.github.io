@@ -1,157 +1,150 @@
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="../css/site.css">
 #+OPTIONS: toc:nil num:nil \n:nil ::t -:t ::t html-postamble:nil
-#+TITLE: Hassan McGinnis | Résumé
+#+TITLE: Hassan McGinnis Résumé
 
 * Hassan McGinnis
-  :PROPERTIES: 
-  :VISIBILITY: children
-  :HTML_CONTAINER_CLASS: row title
-  :CUSTOM_ID: name
-  :END:      
+:PROPERTIES:
+:VISIBILITY: children
+:HTML_CONTAINER_CLASS: section title
+:CUSTOM_ID: name
+:END:      
 
-  @@html:<p style="font-size:16px;font-weight:300;margin-bottom:-12px">@@
-  *Software Developer*  |  *Controls Engineer* \\
-  @@html:</p><p style="font-size:13px;line-height:22px">@@
-  Natick, MA  |  (502) 295-8499 \\
-  ~hassan.mcginnis@gmail.com~ | [[https://www.linkedin.com/in/hrmcginnis][linkedin.com/in/hrmcginnis]] | [[https://hrmcginnis.github.io][hrmcginnis.github.io]] \\
-  @@html:</p>@@
+@@html:<p style="font-family:var(--display-font);font-size:16px">@@
+*Software* *&* *Controls Engineer* \\
+Natick, MA
+@@html:</p>@@
 
 * 
-  :PROPERTIES:
-  :VISIBILITY: children
-  :END:
-  --------------
+:PROPERTIES:
+:VISIBILITY: children
+:END:
+--------------
   
 ** Summary
-   :PROPERTIES: 
-   :HTML_CONTAINER_CLASS: row
-   :CUSTOM_ID: summary
-   :END:      
-   
-   I'm an engineer with professional software development and test experience using MATLAB, Simulink, Python and C++. I also have research experience in robust control of aircraft control surfaces and signal processing for structural vibration analysis.
-   
-** Software Skills
-   :PROPERTIES: 
-   :HTML_CONTAINER_CLASS: row
-   :CUSTOM_ID: software-skills
-   :END:      
-   
-   *Tools*: MATLAB, Simulink, Stateflow, GNU/Linux, Emacs, Git
-   
-   *Languages*: MATLAB, Python, Bash, C++
-   
-** Projects
-   :PROPERTIES: 
-   :HTML_CONTAINER_CLASS: row notext
-   :CUSTOM_ID: projects
-   :END:      
-*** 
-   :PROPERTIES: 
-   :HTML_CONTAINER_CLASS: col notext
-   :END:      
-**** MedAcuity Software | Controls Software Verification for Robotic Assisted Surgery System
-    :PROPERTIES: 
-    :CUSTOM_ID: medacuity-software-verification
-    :END:      
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: section
+:CUSTOM_ID: summary
+:END:      
 
-	/Aug 2017 - present/
+Software Engineer and SDET with experience developing and testing surgical robotic control software using MATLAB, Simulink, Python, and C++. Experience with control systems and requirements for ISO-13485, ISO-14971 and IEC-62304.
+
+
+** Contact
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: section
+:CUSTOM_ID: contact
+:END:      
+   
+~hassan.mcginnis@gmail.com~ \bullet [[https://www.linkedin.com/in/hrmcginnis][linkedin.com/in/hrmcginnis]] \bullet [[https://hrmcginnis.github.io][hrmcginnis.github.io]]
+
+
+** Software Skills
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: section
+:CUSTOM_ID: software-skills
+:END:      
+   
+*Languages*: MATLAB, Python, Bash, C++
+
+*Tools & Environments*: MATLAB, Simulink, Stateflow, GNU/Linux, Git, Emacs
+
+
+** Projects
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: section notext
+:CUSTOM_ID: projects
+:END:      
+*** 
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: col notext
+:END:      
+**** *MedAcuity Software* | Controls Software Verification for Robotic Assisted Surgery System
+:PROPERTIES:
+:CUSTOM_ID: medacuity-software-verification
+:END:      
+
+/Aug 2017 - present/
     
-+ Created, implemented, and documented a strategy for verification and MC/DC test coverage of state machines and control algorithms for robotic arm motion implemented in Simulink.
++ Created and implemented a strategy for verification and MC/DC test coverage of state machines and control algorithms for robotic arm motion implemented in Simulink.
 + Led a team of remote test engineers through verification of functional and non-functional software requirements implemented in Simulink and C++.
 + Developed and validated a Python framework and Bamboo test plan for batch execution of C++ requirements tests and Simulink unit tests.
 
-**** MathWorks | Development of Python System Object for Simulink Raspberry Pi Support Package
-    :PROPERTIES: 
-    :CUSTOM_ID: mathworks-python-system-object
-    :END:      
+**** *MathWorks* | Python System Object for Simulink Support Package for Raspberry Pi
+:PROPERTIES:
+:CUSTOM_ID: mathworks-python-system-object
+:END:      
     
-	/May 2016/
+/May 2016/
 
-+ Developed a Simulink block in MATLAB and C for the Raspberry Pi support package that interfaces with the Python/C API, allowing users to easily send simulation data to any Python module on the Raspberry Pi in soft real-time.
-+ Created a demo using the Python System object block in Simulink to drive a servomotor with a Raspberry Pi using the RaspiRobot Python library.
++ Developed a MATLAB system object/Simulink block for the Raspberry Pi support package that interfaces with the Python/C API, enabling simulation data to be streamed to a Python application on the Raspberry Pi in soft real-time.
++ Created a proof of concept demo using the Python System object block in Simulink to drive a servomotor with a Raspberry Pi using the RaspiRobot Python library.
    
-**** Purdue University | Sensitivity analysis of wear prognosis in an $H_\infty$ controlled F-16 simulation
-    :PROPERTIES: 
-    :CUSTOM_ID: purdue-h-infinity-control
-    :END:      
+**** *Purdue University* | Sensitivity analysis of wear prognosis in an $H_\infty$ controlled F-16 simulation
+:PROPERTIES:
+:CUSTOM_ID: purdue-h-infinity-control
+:END:      
     
-	/Aug 2010 - Dec 2011/
+/Aug 2010 - Dec 2011/
 
 + Investigated the minimization of fault propagation in a hydraulic actuator through real-time adjustment in the commanded flight path.
 + Developed a robust altitude controller for an F-16 fighter aircraft model using $H_\infty$ synthesis.
 + Performed sensitivity analysis of the path adjustment algorithm under modeling error.
 + Demonstrated the improved control strategy using a hydraulic solenoid valve hardware-in-the-loop system prototyped in Simulink and driven by dSPACE software.
-  
+
+
 ** Work Experience
-   :PROPERTIES: 
-   :HTML_CONTAINER_CLASS: row notext
-   :CUSTOM_ID: work-experience
-   :END:
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: section notext
+:CUSTOM_ID: work-experience
+:END:
 *** 
-	:PROPERTIES:
-	:HTML_CONTAINER_CLASS: col notext
-	:END:
-**** MedAcuity Software | Westford, MA
-     :PROPERTIES: 
-	 :HTML_CONTAINER_CLASS:
-     :CUSTOM_ID: medacuity-software-software-specialist
-     :END:      
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: col notext
+:END:
+**** *MedAcuity Software* | Westford, MA
+:PROPERTIES:
+:HTML_CONTAINER_CLASS:
+:CUSTOM_ID: medacuity-software-software-specialist
+:END:      
 ***** *Software Specialist* | /July 2017 - present/
     
-**** MathWorks | Natick, MA
-     :PROPERTIES: 
-	 :HTML_CONTAINER_CLASS:
-     :CUSTOM_ID: mathworks-senior-application-engineer-post-sales
-     :END:      
+**** *MathWorks* | Natick, MA
+:PROPERTIES:
+:HTML_CONTAINER_CLASS:
+:CUSTOM_ID: mathworks-senior-application-engineer-post-sales
+:END:      
 ***** *Senior Application Engineer - Post Sales* | /Sept 2013 - July 2016/
 ***** *Application Support Engineer* | /Sept 2011 - Sept 2013/
 
+
 ** Education
-   :PROPERTIES: 
-   :HTML_CONTAINER_CLASS: row notext
-   :CUSTOM_ID: education
-   :END:      
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: section notext
+:CUSTOM_ID: education
+:END:      
 *** 
-	:PROPERTIES:
-	:HTML_CONTAINER_CLASS: col notext
-	:END:
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: col notext
+:END:
    
 **** Purdue University
-     :PROPERTIES: 
-     :CUSTOM_ID: purdue-university
-     :END:      
+:PROPERTIES:
+:CUSTOM_ID: purdue-university
+:END:      
     
-     MS Mechanical Engineering | Dec 2011 | GPA: /3.81/4.00/
-    
-**** University of Kentucky
-     :PROPERTIES: 
-     :CUSTOM_ID: university-of-kentucky
-     :END:      
-    
-     ​BS Mechanical Engineering | May 2009 | GPA: /3.46/4.00/ 
+MS Mechanical Engineering | Dec 2011 | GPA: /3.81/4.00/
 
-# ** Hobby Projects
-#    :PROPERTIES: 
-#    :HTML_CONTAINER_CLASS: row notext
-#    :CUSTOM_ID: hobby-projects
-#    :END:      
-# *** 
-# 	:PROPERTIES:
-# 	:HTML_CONTAINER_CLASS: col notext
-# 	:END:
-# **** Music Production
-#     :PROPERTIES: 
-#     :CUSTOM_ID: hobby-mixing
-#     :END:      
+**** University of Kentucky
+:PROPERTIES:
+:CUSTOM_ID: university-of-kentucky
+:END:      
     
-#     /July 2016 - present/
-    
-# + Using Reaper Digital Audio Workstation with several free VST plugins to record and mix audio tracks
-# + Recording guitar and bass through an audio interface, and recording drums via MIDI
-   
-** Résumé
-   :PROPERTIES: 
-   :HTML_CONTAINER_CLASS: row
-   :CUSTOM_ID: resume-in-org-mode
-   :END:      
-   Generated with [[https://orgmode.org/][Emacs Org mode]] 
+​BS Mechanical Engineering | May 2009 | GPA: /3.46/4.00/ 
+
+
+** Additional Info
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: section
+:CUSTOM_ID: resume-in-org-mode
+:END:      
+Résumé generated with [[https://orgmode.org/][Emacs & org-mode]] 
