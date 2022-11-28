@@ -133,6 +133,10 @@ ul {
     flex-direction: column;
 }
 
+.always-center {
+	text-align: center;
+}
+
 /* Hide the title and the first <div>/child of a ".notext" or ".col" */
 h1.title, .notext > div:first-of-type, .col > :first-child {
     display: none;

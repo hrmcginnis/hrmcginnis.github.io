@@ -1,9 +1,12 @@
-#+OPTIONS: toc:nil num:nil \n:nil ::t -:t title:nil html-postamble:nil
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/site.css" />
-#+TITLE: Hassan McGinnis | GitHub Pages
+#+OPTIONS: toc:nil num:nil \n:nil ::t -:t title:nil html-postamble:nil
+#+TITLE: Hassan McGinnis GitHub Pages
 
 ** Hassan McGinnis
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: always-center
+:END:
+
 Software Developer | Controls Engineer | MetroWest Boston
 -----
-[[https://hrmcginnis.github.io/resume/hrmresume.html][Résumé]] [[[https://hrmcginnis.github.io/resume/hrmresume.pdf][pdf]]] \\
-[[https://www.linkedin.com/in/hrmcginnis/][LinkedIn]] \\
+[[./resume/hrmresume.html][Résumé]] [[[./resume/hrmresume.pdf][pdf]]] \bullet [[https://www.linkedin.com/in/hrmcginnis/][LinkedIn]]
