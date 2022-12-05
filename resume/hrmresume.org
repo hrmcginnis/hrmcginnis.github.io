@@ -1,4 +1,4 @@
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="../css/site.css">
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="../css/style.css">
 #+OPTIONS: toc:nil num:nil \n:nil ::t -:t ::t html-postamble:nil
 #+TITLE: Hassan McGinnis Résumé
 
@@ -7,12 +7,11 @@
 :VISIBILITY: children
 :HTML_CONTAINER_CLASS: section title
 :CUSTOM_ID: name
-:END:      
-
-@@html:<p style="font-family:var(--display-font);font-size:16px">@@
+:END:
+\\
 *Software* *&* *Controls Engineer* \\
-Natick, MA
-@@html:</p>@@
+Natick, MA \\
+\\
 
 * 
 :PROPERTIES:
@@ -26,7 +25,7 @@ Natick, MA
 :CUSTOM_ID: summary
 :END:      
 
-Software Engineer and SDET with experience developing and testing surgical robotic control software using MATLAB, Simulink, Python, and C++. Experience with control systems and requirements for ISO-13485, ISO-14971 and IEC-62304.
+Software engineer with a background in control systems engineering. Experience developing and testing surgical robotic control software in MATLAB, Simulink, Python, and C++. Familiarity with medical device standards ISO-13485, ISO-14971, and IEC-62304.
 
 
 ** Contact
@@ -147,4 +146,4 @@ MS Mechanical Engineering | Dec 2011 | GPA: /3.81/4.00/
 :HTML_CONTAINER_CLASS: section
 :CUSTOM_ID: resume-in-org-mode
 :END:      
-Résumé generated with [[https://orgmode.org/][Emacs & org-mode]] 
+Résumé generated with Emacs using [[https://orgmode.org/][Org Mode]] 

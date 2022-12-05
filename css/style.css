@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Roboto+Slab:wght@400..600&family=Roboto+Mono');
+
+
+/* ─────────────────────────────────────────────────────────
+ * Text Properties
+ */
+
+:root { 
+    --default-font-family: 'IBM Plex Sans';
+	--default-font-size: 0.875em;
+	--mono-font-family: 'Roboto Mono';
+	--mono-font-size: var(--default-font-size);
+    --display-font-family: 'Roboto Slab';
+    --left-column-width: 2in;
+	--line-padding: 0.15in;
+}
+
+h2, h3, h4, h5 {
+    font-family: var(--display-font-family), sans-serif;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 2em;
+    line-height: 1em;
+}
+
+h3 {
+    font-size: 1.125em;
+	line-height: 0.5em;
+}
+
+h4, h5 {
+	font-size: 1em;
+	margin-bottom: 0.3em;
+}
+
+p, li {
+    font-family: var(--default-font-family), sans-serif;
+    font-size: var(--default-font-size);
+	color: #333333;
+}
+
+b {
+	font-family: var(--display-font-family), sans-serif;
+	font-weight: 500;
+}
+
+code {
+    font-family: var(--mono-font-family), monospace;
+    font-size: var(--mono-font-size);
+	color: #333333;
+}
+
+li {
+    margin-bottom: 0.3em;
+}
+
+hr {
+    border: 0;
+    height: 1;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+/* ─────────────────────────────────────────────────────────
+ * Layout
+ */
+
+html {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+
+body {
+	flex: 0 1 auto;
+	align-self: auto;
+	max-width: 7.9in;
+	margin-top: 0.2in;
+	margin-bottom: 0.2in;
+}
+
+ul {
+	padding-left: 0.3in;
+}
+
+/* Each section is a horizontal flexbox */
+.section {
+    display: flex;
+    align-items: baseline;
+}
+
+/* Any <div>s in a section should generally be left-aligned with a border */
+.section > div {
+    text-align: left;
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    padding-left: var(--line-padding);
+    padding-right: var(--line-padding);
+}
+
+
+/* The first element of each section should be right-aligned */
+.section > :first-child {
+    flex: none;
+    width: var(--left-column-width);
+    text-align: right;
+    padding-right: var(--line-padding);
+    padding-left: 0;
+    border: 0;
+}
+
+/* The title section should vertically center all elements */
+.section.title {
+    align-items: center;
+    margin-bottom: -1.25em;
+}
+
+/* All non-title sections should have a fixed amount of bottom padding (gap)*/
+.section:not([class~="title"]) {
+    padding-bottom: 0.75em;
+}
+
+/* Each vertical flexbox */
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.always-center {
+	text-align: center;
+}
+
+/* Hide the title and the first <div>/child of a ".notext" or ".col" */
+h1.title, .notext > div:first-of-type, .col > :first-child {
+    display: none;
+}
+
+
+/* ───────────────────────────────────────────────────────── 
+ * Different Media
+ */
+
+@media print {
+	@page {
+		size: auto;
+		margin: 0.5in 0.3in 0.5in 0.3in;
+	}
+	
+	body {
+		margin: 0px;
+	}
+}
+
+@media only screen and (max-width: 760px) {
+	body {
+		margin-left: 40px;
+		margin-right: 40px;
+	}
+
+	h1, h2, h3, h4, h5 {
+		margin-bottom: -0.25em;
+	}
+
+	div#text-contact {
+		text-align: center;
+	}
+
+	hr {
+		margin-top: 4em;
+	}
+	
+    .section {
+    	display: flex;
+    	flex-direction: column;
+        align-items: center;
+    }
+    
+    .section > div, .col > div {
+		flex: 1 1 auto;
+    	width: 100%;
+  		text-align: left;
+		border: 0;
+    }
+    
+    .section.title > div {
+    	text-align: center;
+        margin: 0;
+    	padding: 0;
+        border: 0;
+    }
+    
+    .section > :first-child, .section.title > :first-child, .col > :first-child {
+    	width: auto;
+		text-align: center;
+		padding: 0;
+    }
+}
