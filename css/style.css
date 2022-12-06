@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Roboto+Slab:wght@400..600&family=Roboto+Mono');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400..600&family=Roboto+Mono&family=Barlow');
 
 
 /* ─────────────────────────────────────────────────────────
@@ -6,11 +6,11 @@
  */
 
 :root { 
-    --default-font-family: 'IBM Plex Sans';
-	--default-font-size: 0.875em;
-	--mono-font-family: 'Roboto Mono';
-	--mono-font-size: var(--default-font-size);
+    --default-font-family: 'Barlow';
     --display-font-family: 'Roboto Slab';
+	--mono-font-family: 'Roboto Mono';
+	--default-font-size: 0.875em;
+	--mono-font-size: var(--default-font-size);
     --left-column-width: 2in;
 	--line-padding: 0.15in;
 }
@@ -21,7 +21,7 @@ h2, h3, h4, h5 {
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 2.25em;
     line-height: 1em;
 }
 
@@ -57,8 +57,8 @@ li {
 }
 
 hr {
-    border: 0;
-    height: 1;
+    border: 0px;
+    height: 1px;
     border-top: 1px solid rgba(0, 0, 0, 0.2);
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
@@ -116,12 +116,12 @@ ul {
 /* The title section should vertically center all elements */
 .section.title {
     align-items: center;
-    margin-bottom: -1.25em;
+    margin-bottom: -2em;
 }
 
 /* All non-title sections should have a fixed amount of bottom padding (gap)*/
 .section:not([class~="title"]) {
-    padding-bottom: 0.75em;
+    padding-bottom: 0.5em;
 }
 
 /* Each vertical flexbox */

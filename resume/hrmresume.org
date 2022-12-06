@@ -8,16 +8,16 @@
 :HTML_CONTAINER_CLASS: section title
 :CUSTOM_ID: name
 :END:
-\\
+# \\
 *Software* *&* *Controls Engineer* \\
 Natick, MA \\
-\\
+# \\
 
 * 
 :PROPERTIES:
 :VISIBILITY: children
 :END:
---------------
+# --------------
   
 ** Summary
 :PROPERTIES:
@@ -51,13 +51,13 @@ Software engineer with a background in control systems engineering. Experience d
 ** Projects
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: section notext
-:CUSTOM_ID: projects
+:CUSTOM_ID: project1
 :END:      
 *** 
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: col notext
 :END:      
-**** *MedAcuity Software* | Controls Software Verification for Robotic Assisted Surgery System
+**** *MedAcuity Software*: Controls Software Verification for Robotic Assisted Surgery System
 :PROPERTIES:
 :CUSTOM_ID: medacuity-software-verification
 :END:      
@@ -67,8 +67,16 @@ Software engineer with a background in control systems engineering. Experience d
 + Created and implemented a strategy for verification and MC/DC test coverage of state machines and control algorithms for robotic arm motion implemented in Simulink.
 + Led a team of remote test engineers through verification of functional and non-functional software requirements implemented in Simulink and C++.
 + Developed and validated a Python framework and Bamboo test plan for batch execution of C++ requirements tests and Simulink unit tests.
-
-**** *MathWorks* | Python System Object for Simulink Support Package for Raspberry Pi
+** 
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: section notext
+:CUSTOM_ID: project2
+:END:
+*** 
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: col notext
+:END:
+**** *MathWorks*: Python System Object for Simulink Support Package for Raspberry Pi
 :PROPERTIES:
 :CUSTOM_ID: mathworks-python-system-object
 :END:      
@@ -78,7 +86,16 @@ Software engineer with a background in control systems engineering. Experience d
 + Developed a MATLAB system object/Simulink block for the Raspberry Pi support package that interfaces with the Python/C API, enabling simulation data to be streamed to a Python application on the Raspberry Pi in soft real-time.
 + Created a proof of concept demo using the Python System object block in Simulink to drive a servomotor with a Raspberry Pi using the RaspiRobot Python library.
    
-**** *Purdue University* | Sensitivity analysis of wear prognosis in an $H_\infty$ controlled F-16 simulation
+** 
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: section notext
+:CUSTOM_ID: project3
+:END:
+*** 
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: col notext
+:END:
+**** *Purdue University*: Sensitivity analysis of wear prognosis in an $H_\infty$ controlled F-16 simulation
 :PROPERTIES:
 :CUSTOM_ID: purdue-h-infinity-control
 :END:      
@@ -100,20 +117,20 @@ Software engineer with a background in control systems engineering. Experience d
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: col notext
 :END:
-**** *MedAcuity Software* | Westford, MA
+**** *MedAcuity Software*, Westford, MA
 :PROPERTIES:
 :HTML_CONTAINER_CLASS:
 :CUSTOM_ID: medacuity-software-software-specialist
 :END:      
-***** *Software Specialist* | /July 2017 - present/
+***** *Software Specialist* - /July 2017 - present/
     
-**** *MathWorks* | Natick, MA
+**** *MathWorks*, Natick, MA
 :PROPERTIES:
 :HTML_CONTAINER_CLASS:
 :CUSTOM_ID: mathworks-senior-application-engineer-post-sales
 :END:      
-***** *Senior Application Engineer - Post Sales* | /Sept 2013 - July 2016/
-***** *Application Support Engineer* | /Sept 2011 - Sept 2013/
+***** *Senior Application Engineer - Post Sales* - /Sept 2013 - July 2016/
+***** *Application Support Engineer* - /Sept 2011 - Sept 2013/
 
 
 ** Education
@@ -131,14 +148,14 @@ Software engineer with a background in control systems engineering. Experience d
 :CUSTOM_ID: purdue-university
 :END:      
     
-MS Mechanical Engineering | Dec 2011 | GPA: /3.81/4.00/
+MS Mechanical Engineering - /Dec 2011/ - GPA: /3.81/4.00/
 
 **** University of Kentucky
 :PROPERTIES:
 :CUSTOM_ID: university-of-kentucky
 :END:      
     
-​BS Mechanical Engineering | May 2009 | GPA: /3.46/4.00/ 
+​BS Mechanical Engineering - /May 2009/ - GPA: /3.46/4.00/ 
 
 
 ** Additional Info
