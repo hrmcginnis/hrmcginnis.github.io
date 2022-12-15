@@ -1,4 +1,5 @@
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="../css/style.css">
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="../site/style.css">
+#+HTML_HEAD: <link rel="shortcut icon" type="image/x-icon" href="../site/favicon.png?">
 #+OPTIONS: toc:nil num:nil \n:nil ::t -:t ::t html-postamble:nil
 #+TITLE: Hassan McGinnis Résumé
 
@@ -8,10 +9,8 @@
 :HTML_CONTAINER_CLASS: section title
 :CUSTOM_ID: name
 :END:
-# \\
 *Software* *&* *Controls Engineer* \\
 Natick, MA \\
-# \\
 
 * 
 :PROPERTIES:
@@ -163,4 +162,4 @@ MS Mechanical Engineering - /Dec 2011/ - GPA: /3.81/4.00/
 :HTML_CONTAINER_CLASS: section
 :CUSTOM_ID: resume-in-org-mode
 :END:      
-Résumé generated with Emacs using [[https://orgmode.org/][Org Mode]] 
+HTML generated with Emacs using [[https://orgmode.org/][Org Mode]] 
