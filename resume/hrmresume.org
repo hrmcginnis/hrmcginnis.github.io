@@ -1,7 +1,8 @@
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="../site/style.css">
-#+HTML_HEAD: <link rel="shortcut icon" type="image/x-icon" href="../site/favicon.png?">
-#+OPTIONS: toc:nil num:nil \n:nil ::t -:t ::t html-postamble:nil
-#+TITLE: Hassan McGinnis Résumé
+#+html_head: <link rel="stylesheet" type="text/css" href="../site/style.css">
+#+html_head: <link rel="shortcut icon" type="image/x-icon" href="../site/favicon.png?">
+#+options: toc:nil num:nil ^:{} \n:nil ::t -:t ::t html-postamble:nil
+#+title: Hassan McGinnis Résumé
+#+macro: MATLAB @@html:<span style="font-variant: small-caps;">@@Matlab@@html:</span>@@
 
 * Hassan McGinnis
 :PROPERTIES:
@@ -24,7 +25,7 @@ Natick, MA \\
 :CUSTOM_ID: summary
 :END:      
 
-Software engineer with a background in control systems engineering. Experience developing and testing surgical robotic control software in MATLAB, Simulink, Python, and C++. Familiarity with medical device standards ISO-13485, ISO-14971, and IEC-62304.
+Software engineer with a background in control systems engineering. Experience developing and testing surgical robotic control software in {{{MATLAB}}}, Simulink, Python, and C++. Familiarity with medical device standards ISO-13485, ISO-14971, and IEC-62304.
 
 
 ** Contact
@@ -42,9 +43,9 @@ Software engineer with a background in control systems engineering. Experience d
 :CUSTOM_ID: software-skills
 :END:      
    
-*Languages*: MATLAB, Python, Bash, C++
+*Languages*: {{{MATLAB}}}, Python, Bash, C++
 
-*Tools & Environments*: MATLAB, Simulink, Stateflow, GNU/Linux, Git, Emacs
+*Tools & Environments*: {{{MATLAB}}}, Simulink, Stateflow, GNU/Linux, Git, Emacs
 
 
 ** Projects
@@ -82,7 +83,7 @@ Software engineer with a background in control systems engineering. Experience d
     
 /May 2016/
 
-+ Developed a MATLAB system object/Simulink block for the Raspberry Pi support package that interfaces with the Python/C API, enabling simulation data to be streamed to a Python application on the Raspberry Pi in soft real-time.
++ Developed a @@html:<span style="font-variant: small-caps;">@@Matlab@@html:</span>@@ system object/Simulink block for the Raspberry Pi support package that interfaces with the Python/C API, enabling simulation data to be streamed to a Python application on the Raspberry Pi in soft real-time.
 + Created a proof of concept demo using the Python System object block in Simulink to drive a servomotor with a Raspberry Pi using the RaspiRobot Python library.
    
 ** 
@@ -94,7 +95,7 @@ Software engineer with a background in control systems engineering. Experience d
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: col notext
 :END:
-**** *Purdue University*: Sensitivity analysis of wear prognosis in an $H_\infty$ controlled F-16 simulation
+**** *Purdue University*: Sensitivity analysis of wear prognosis in an $H_{\infty}$ controlled F-16 simulation
 :PROPERTIES:
 :CUSTOM_ID: purdue-h-infinity-control
 :END:      
@@ -102,7 +103,7 @@ Software engineer with a background in control systems engineering. Experience d
 /Aug 2010 - Dec 2011/
 
 + Investigated the minimization of fault propagation in a hydraulic actuator through real-time adjustment in the commanded flight path.
-+ Developed a robust altitude controller for an F-16 fighter aircraft model using $H_\infty$ synthesis.
++ Developed a robust altitude controller for an F-16 fighter aircraft model using $H_{\infty}$ synthesis.
 + Performed sensitivity analysis of the path adjustment algorithm under modeling error.
 + Demonstrated the improved control strategy using a hydraulic solenoid valve hardware-in-the-loop system prototyped in Simulink and driven by dSPACE software.
 

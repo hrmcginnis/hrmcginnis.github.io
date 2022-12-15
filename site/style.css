@@ -6,22 +6,25 @@
  */
 
 :root { 
-    --default-font-family: 'Barlow';
-    --display-font-family: 'Roboto Slab';
-	--mono-font-family: 'Roboto Mono';
-	--default-font-size: 0.875em;
-	--mono-font-size: var(--default-font-size);
+    --default-font: 'Barlow';
+    --display-font: 'Roboto Slab';
+	--mono-font: 'Roboto Mono';
+	--zoom-percent: 100%;
     --left-column-width: 2in;
 	--line-padding: 0.15in;
 }
 
+html {
+	font-size: var(--zoom-percent);
+}
+
 h2, h3, h4, h5 {
-    font-family: var(--display-font-family), sans-serif;
+    font-family: var(--display-font), sans-serif;
     font-weight: 400;
 }
 
 h2 {
-    font-size: 2.25em;
+    font-size: 2.1em;
     line-height: 1em;
 }
 
@@ -35,25 +38,23 @@ h4, h5 {
 	margin-bottom: 0.3em;
 }
 
-p, li {
-    font-family: var(--default-font-family), sans-serif;
-    font-size: var(--default-font-size);
+p, li, code {
+    font-family: var(--default-font), sans-serif;
+    font-size: 0.875em;
 	color: #333333;
 }
 
 b {
-	font-family: var(--display-font-family), sans-serif;
+	font-family: var(--display-font), var(--default-font), sans-serif;
 	font-weight: 500;
 }
 
 code {
-    font-family: var(--mono-font-family), monospace;
-    font-size: var(--mono-font-size);
-	color: #333333;
+    font-family: var(--mono-font), monospace;
 }
 
 li {
-    margin-bottom: 0.3em;
+    margin-bottom: 0.5em;
 }
 
 hr {
@@ -88,10 +89,11 @@ ul {
 	padding-left: 0.3in;
 }
 
-/* Each section is a horizontal flexbox */
+/* Each section is a horizontal flexbox with a small amount of padding */
 .section {
     display: flex;
     align-items: baseline;
+    padding-bottom: 0.5em;
 }
 
 /* Any <div>s in a section should generally be left-aligned with a border */
@@ -117,12 +119,9 @@ ul {
 .section.title {
     align-items: center;
     margin-bottom: -2em;
+	padding-bottom: 0em;
 }
 
-/* All non-title sections should have a fixed amount of bottom padding (gap)*/
-.section:not([class~="title"]) {
-    padding-bottom: 0.5em;
-}
 
 /* Each vertical flexbox */
 .col {

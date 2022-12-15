@@ -8,6 +8,6 @@
 :HTML_CONTAINER_CLASS: always-center
 :END:
 
-Software Developer | Controls Engineer | MetroWest Boston
+Software Developer \bullet Controls Engineer \bullet MetroWest Boston
 -----
 [[./resume/hrmresume.html][Résumé]] [[[./resume/hrmresume.pdf][pdf]]] \bullet [[https://www.linkedin.com/in/hrmcginnis/][LinkedIn]]
