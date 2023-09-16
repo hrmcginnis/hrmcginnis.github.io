@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400..600&family=Roboto+Mono&family=Barlow');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400..600&family=Roboto+Mono&family=IBM+Plex+Sans:wght@400..600&family=Noto+Sans+Mono:wdth,wght@70,500&display=swap');
 
 
 /* ─────────────────────────────────────────────────────────
@@ -6,9 +6,9 @@
  */
 
 :root { 
-    --default-font: 'Barlow';
+    --default-font: 'IBM Plex Sans';
     --display-font: 'Roboto Slab';
-	--mono-font: 'Roboto Mono';
+	--mono-font: 'Noto Sans Mono';
 	--zoom-percent: 100%;
     --left-column-width: 2in;
 	--line-padding: 0.15in;
@@ -38,9 +38,10 @@ h4, h5 {
 	margin-bottom: 0.3em;
 }
 
-p, li, code {
+p, li, code, dt {
     font-family: var(--default-font), sans-serif;
-    font-size: 0.875em;
+    font-size: 0.9em;
+	font-weight: 400;
 	color: #333333;
 }
 
@@ -49,12 +50,18 @@ b {
 	font-weight: 500;
 }
 
+
 code {
     font-family: var(--mono-font), monospace;
 }
 
 li {
     margin-bottom: 0.5em;
+	list-style-type: disc;
+}
+
+dt {
+	font-weight: bold;
 }
 
 hr {

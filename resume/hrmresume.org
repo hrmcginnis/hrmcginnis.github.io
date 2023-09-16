@@ -1,5 +1,5 @@
 #+html_head: <link rel="stylesheet" type="text/css" href="../site/style.css">
-#+html_head: <link rel="shortcut icon" type="image/x-icon" href="../site/favicon.png?">
+#+html_head: <link rel="shortcut icon" type="image/x-icon" href="../site/favicon.ico?">
 #+options: toc:nil num:nil ^:{} \n:nil ::t -:t ::t html-postamble:nil
 #+title: Hassan McGinnis Résumé
 #+macro: MATLAB @@html:<span style="font-variant: small-caps;">@@Matlab@@html:</span>@@
@@ -83,7 +83,7 @@ Software engineer with a background in control systems engineering. Experience d
     
 /May 2016/
 
-+ Developed a @@html:<span style="font-variant: small-caps;">@@Matlab@@html:</span>@@ system object/Simulink block for the Raspberry Pi support package that interfaces with the Python/C API, enabling simulation data to be streamed to a Python application on the Raspberry Pi in soft real-time.
++ Developed a {{{MATLAB}}} system object/Simulink block for the Raspberry Pi support package that interfaces with the Python/C API, enabling simulation data to be streamed to a Python application on the Raspberry Pi in soft real-time.
 + Created a proof of concept demo using the Python System object block in Simulink to drive a servomotor with a Raspberry Pi using the RaspiRobot Python library.
    
 ** 
@@ -117,20 +117,23 @@ Software engineer with a background in control systems engineering. Experience d
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: col notext
 :END:
-**** *MedAcuity Software*, Westford, MA
+**** *MedAcuity Software: Westford, MA
 :PROPERTIES:
 :HTML_CONTAINER_CLASS:
 :CUSTOM_ID: medacuity-software-software-specialist
-:END:      
-***** *Software Specialist* - /July 2017 - present/
+:END:
+
+Test Automation Engineer - /July 2017 - present/
     
-**** *MathWorks*, Natick, MA
+**** *MathWorks*: Natick, MA
 :PROPERTIES:
 :HTML_CONTAINER_CLASS:
 :CUSTOM_ID: mathworks-senior-application-engineer-post-sales
-:END:      
-***** *Senior Application Engineer - Post Sales* - /Sept 2013 - July 2016/
-***** *Application Support Engineer* - /Sept 2011 - Sept 2013/
+:END:
+
+Senior Application Engineer (Post-Sales) /Sept 2013 - July 2016/
+
+Application Support Engineer /Sept 2011 - Sept 2013/
 
 
 ** Education
@@ -143,14 +146,14 @@ Software engineer with a background in control systems engineering. Experience d
 :HTML_CONTAINER_CLASS: col notext
 :END:
    
-**** Purdue University
+**** *Purdue University*
 :PROPERTIES:
 :CUSTOM_ID: purdue-university
 :END:      
     
 MS Mechanical Engineering - /Dec 2011/ - GPA: /3.81/4.00/
 
-**** University of Kentucky
+**** *University of Kentucky*
 :PROPERTIES:
 :CUSTOM_ID: university-of-kentucky
 :END:      

@@ -1,5 +1,5 @@
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="site/style.css" />
-#+HTML_HEAD: <link rel="shortcut icon" type="image/x-icon" href="site/favicon.png?">
+#+HTML_HEAD: <link rel="shortcut icon" type="image/x-icon" href="site/favicon.ico?">
 #+OPTIONS: toc:nil num:nil \n:nil ::t -:t title:nil html-postamble:nil
 #+TITLE: Hassan McGinnis GitHub Pages
 
